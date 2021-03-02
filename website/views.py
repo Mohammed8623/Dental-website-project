@@ -7,7 +7,10 @@ def pricing(request):
 	return render(request, 'pricing.html', {})
 
 def about(request):
-	return render(request, 'about.html', {})	
+	return render(request, 'about.html', {})
+
+def service(request):
+	return render(request, 'service.html', {})	
 		
 
 def contact(request):
